@@ -1,0 +1,6 @@
+{
+    "NAME"       : "riseAndShine",
+    "VERSION"    : "0.1",
+    "ENVIRONMENT": "prod",
+    "VERBOSE"    : false
+}

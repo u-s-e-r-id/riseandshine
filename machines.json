@@ -1,0 +1,14 @@
+[
+    {
+        "NAME": "A machine that can be awoken from anywhere",
+        "IP"  : "216.58.213.164",
+        "MAC" : "AA:BB:CC:11:22:33",
+        "PORT": 9
+    },
+    {
+        "NAME": "A machine that can be awoken from the same network only",
+        "IP"  : "192.168.1.11",
+        "MAC" : "DD:EE:FF:44:55:66",
+        "PORT": 9
+    }
+]
