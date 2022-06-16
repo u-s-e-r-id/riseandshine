@@ -171,10 +171,10 @@ if __name__ == '__main__':
             print('<!> Invalid choice: not in the list.\n')
         except ValueError as e:
             print('<!> Invalid choice: not an integer.\n')
-        finally:
-            wake_attempt_result = awake(target)
-            if config["VERBOSE"]:
-                print(textwrap.dedent(f'{wake_attempt_result}\n'))
+
+    wake_attempt_result = awake(target)
+    if config["VERBOSE"]:
+        print(textwrap.dedent(f'{wake_attempt_result}\n'))
 
     input('Press Enter to exit.\n')
     sys.exit()
